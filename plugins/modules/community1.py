@@ -1,3 +1,4 @@
 #!/usr/bin/python
 
-print("{\"msg\": \"my first community module\"}")
+number = 'first'
+print("{\"msg\": \"my %s community module\"}" % number)
